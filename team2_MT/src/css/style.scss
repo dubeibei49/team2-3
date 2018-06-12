@@ -18,12 +18,85 @@ body,
     overflow: hidden;
 }
 
+header {
+    width: 100%;
+    height: 1rem;
+    background: #06c1ae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    form {
+        width: 60%;
+        line-height: .6rem;
+        background: #21897d;
+        height: 75%;
+        i {
+            color: #fff;
+        }
+        input {
+            width: 85%;
+            height: 90%;
+            border: 0;
+            background: #21897d;
+            // background: #21897d;
+        }
+    }
+    dl {
+        text-align: center;
+        color: #fff;
+        dt {
+            i {
+                font-size: .4rem;
+            }
+        }
+    }
+}
+
 section {
     border-top: 1px solid #ccc;
     width: 100%;
     height: auto;
     flex: 1;
     overflow-y: scroll;
+    .top {
+        position: relative;
+        width: 100%;
+        height: 2.22rem;
+        background: #ccc;
+        img {
+            width: 100%;
+        }
+        .left {
+            position: absolute;
+            bottom: .2rem;
+            left: 15%;
+            width: 2.5rem;
+            height: .7rem;
+            border: .03rem solid #06c1ae;
+            line-height: .7rem;
+            text-align: center;
+            border-radius: .5rem;
+            font-size: .3rem;
+            color: #06c1ae;
+        }
+        .right {
+            position: absolute;
+            bottom: .2rem;
+            right: 15%;
+            width: 2.5rem;
+            height: .7rem;
+            background: #06c1ae;
+            line-height: .7rem;
+            text-align: center;
+            border-radius: .5rem;
+            font-size: .3rem;
+            color: #fff;
+        }
+    }
     .banner {
         width: 100%;
         height: 3rem;
