@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+    font-size: 0.35rem;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+section {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    overflow-y: scroll;
+    .banner {
+        width: 100%;
+        height: 3rem;
+        .box {
+            width: 100%;
+            height: 1.5rem;
+            display: flex;
+            dl {
+                flex: 1;
+                text-align: center;
+                dd {
+                    font-size: 0.3rem;
+                }
+                img {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                }
+            }
+        }
+    }
+}
