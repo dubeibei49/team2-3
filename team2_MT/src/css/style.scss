@@ -100,4 +100,24 @@ section {
             }
         }
     }
+    .box1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        background: #fff;
+        dl {
+            width: 33.3%;
+            border-left: 1px solid #ccc;
+            padding-left: 5px;
+            text-align: center;
+            dd h4 {
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+            h6 {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+        }
+    }
 }

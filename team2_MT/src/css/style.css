@@ -118,3 +118,27 @@ section .footer .button #test dd .num {
   right: 0;
   top: 63px;
 }
+
+section .box1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: #fff;
+}
+
+section .box1 dl {
+  width: 33.3%;
+  border-left: 1px solid #ccc;
+  padding-left: 5px;
+  text-align: center;
+}
+
+section .box1 dl dd h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+section .box1 dl h6 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
